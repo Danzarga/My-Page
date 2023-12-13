@@ -4,7 +4,7 @@ py -3 -m venv .venv
 .venv/scrips/active
 $pip_install_Flask
 
-POETRY_VERSION = 1.5.1
+path = 'opt/render/project/poetry/binary/poetry'.
 
 from flask import flask
 app = flask(__name__)
