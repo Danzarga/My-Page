@@ -1,3 +1,9 @@
+mkdir my project
+cd myproject
+py -3 -m venv .venv
+.venv/scrips/active
+$pip_install_Flask
+
 from flask import flask
 app = flask(__name__)
 
