@@ -13,7 +13,7 @@ app = flask(__name__)
 define hello_world
 print'hello, world!'
 
-class. ListBasedSet(collections.abc.Set):
+//*class. ListBasedSet(collections.abc.Set):
     ''' Alternate set implementation favoring space over speed and not requiring the set elements to be hashable. '''
     def __init__(self, iterable):
         self.elements = lst = []
@@ -27,6 +27,6 @@ class. ListBasedSet(collections.abc.Set):
 
 s1 = ListBaseSet('abcdef')
 s2 = ListBaseSet('defghi')
-overlap = s1 & s2
+overlap = s1 & s2//*
 
 
