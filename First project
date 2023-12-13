@@ -4,6 +4,7 @@ py -3 -m venv .venv
 .venv/scrips/active
 $pip_install_Flask
 
+path = 3.12, 311
 from flask import flask
 app = flask(__name__)
 
