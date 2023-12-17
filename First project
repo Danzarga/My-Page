@@ -4,7 +4,7 @@ py -3 -m venv .venv
 .venv/scrips/active
 $pip_install_Flask
 
-poetry = /opt/render/project/poetry/bin
+poetry = "/opt/render/project/poetry/bin:$PATH"
 
 from flask import flask
 app = flask(__name__)
